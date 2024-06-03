@@ -1,4 +1,4 @@
-# apex_financial_solutions-landingpage
+# energyxchains-landingpage
 
 ## Project setup
 ```
