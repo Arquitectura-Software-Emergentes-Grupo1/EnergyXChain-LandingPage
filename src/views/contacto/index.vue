@@ -61,48 +61,12 @@ export default {
                 } );
                 return;
             }else{
-                /* const response = await fetch("https://formspree.io/f/mnqelzar", {
-                method: 'POST',
-                headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-                },
-                body: JSON.stringify(this.form)
-                });
-
-                if (response.ok) {
-                    toast.success("Mensaje Enviado", {
-                        autoClose: 3000,
-                        position: toast.POSITION.TOP_CENTER,
-                    } );
-                    this.resetForm();
-                } else {
-                    // Maneja los errores si los hay
-                    toast.error("Hubo un problema al enviar tu formulario. Por favor, intenta nuevamente.", {
-                        autoClose: 3000,
-                        position: toast.POSITION.TOP_CENTER,
-                    } );
-                } */
-                emailjs.sendForm('service_etmfsy8', 'template_ims07in', this.$refs.form, {publicKey: 'oyehn_O3rjBV9lwut'}).then(
-                    () => {
-                        toast.success("Mensaje Enviado", {
-                        autoClose: 3000,
-                        position: toast.POSITION.TOP_CENTER,
-                        } );
-                        this.resetForm();
-                    },
-                    (error) => {
-                        // Maneja los errores si los hay
-                        toast.error(`Hubo un problema al enviar tu formulario. Por favor, intenta nuevamente. ${error}`, {
-                            autoClose: 3000,
-                            position: toast.POSITION.TOP_CENTER,
-                        } );
-                        console.log("ERROR", error)
-                    },
-                );
+                toast.success("Mensaje Enviado", {
+                autoClose: 3000,
+                position: toast.POSITION.TOP_CENTER,
+                } );
+                this.resetForm();
             }
-            
-            
         },
         resetForm(){
             this.form = {
