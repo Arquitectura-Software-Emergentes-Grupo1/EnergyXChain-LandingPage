@@ -31,6 +31,21 @@
             </div>
         </div>
     </div>
+    <div id="about">
+        <div class="misionVision-container container">
+            <div class="left-side">
+                <h1 class="title" v-motion-fade-visible>About the Product</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yn8WGaO__ak?si=g_Z6dRB8o03yYQqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="middle">
+                <div class="vertical-line"></div>
+            </div>
+            <div class="right-side">
+                <h1 class="title" v-motion-fade-visible>About the Team</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yn8WGaO__ak?si=g_Z6dRB8o03yYQqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 
     <div id="contactUs">
         <h1 class="title" v-motion-fade-visible>Comunícate con nosotros</h1>
@@ -84,6 +99,9 @@ export default {
 
     #misionVision{
         background-color: #F1F1F1;
+        padding: 3rem;
+    }
+    #about{
         padding: 3rem;
     }
 

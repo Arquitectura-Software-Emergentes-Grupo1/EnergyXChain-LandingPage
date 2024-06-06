@@ -33,7 +33,6 @@
 import FooterComponent from "../../components/Footer.vue";
 import HeroComponent from "../../components/Hero.vue";
 import {toast} from 'vue3-toastify';
-import emailjs from '@emailjs/browser';
 
 export default {
     name: 'ContactoView',
