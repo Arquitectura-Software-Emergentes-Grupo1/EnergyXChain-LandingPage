@@ -35,7 +35,7 @@
         <div class="misionVision-container container">
             <div class="left-side">
                 <h1 class="title" v-motion-fade-visible>About the Product</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yn8WGaO__ak?si=g_Z6dRB8o03yYQqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/t-ES2-IY9U0?si=L8G1bHqgIGgO7T3T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="middle">
                 <div class="vertical-line"></div>
