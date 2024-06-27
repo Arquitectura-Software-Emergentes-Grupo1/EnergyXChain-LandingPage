@@ -42,7 +42,7 @@
             </div>
             <div class="right-side">
                 <h1 class="title" v-motion-fade-visible>About the Team</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yn8WGaO__ak?si=g_Z6dRB8o03yYQqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fU1Tb4UVDBk?si=wesHuimW7ZuVT9WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </div>
